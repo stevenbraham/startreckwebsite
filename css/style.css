@@ -41,6 +41,7 @@ nav a:hover {
 aside {
     width: 30%;
     float: left;
+    display: inline-table;
 }
 
 footer {
@@ -74,6 +75,7 @@ h1 {
     background: white;
     width: 65%;
     margin-right: 5%;
+    display: inline-table;
 }
 
 #news h1 {
@@ -113,11 +115,58 @@ h1 {
     background: #e80909;
 }
 
-.newsPicture {
+aside .newsPicture {
     width: 100%;
     height: auto;
 }
+
+/* articles */
+
+.newsItem {
+    border-bottom: 0.5px solid #f3d5d5;
+}
+
+#newsItems .newsItem:last-child {
+    border: none;
+}
+
+.newsItemInfo, .newsItemContent, .newsItemThumbnail {
+    display: table-cell;
+    vertical-align: top;
+}
+
+.newsItemInfo {
+    width: 33%;
+}
+
+.newsItemContent {
+    width: 50%;
+}
+
+.newsItemContent h2 {
+    margin: 0;
+    font-size: 17px;
+    font-weight: normal;
+}
+
+.newsItemContent h2 a:hover {
+    background: #af7305;
+    text-shadow: 0px 3px rgba(15, 4, 11, 0.78);
+    color: white !important;
+    padding-bottom: 3px;
+}
+
+.newsItemContent h2 a {
+    color: #7272cc;
+    text-decoration: none;
+}
+
+.newsItemThumbnail {
+    vertical-align: middle;
+    text-align: center;
+}
+
 /* padding done in the end to ensure equal spacing */
-nav a, footer, #news h1, #newsItems {
+nav a, footer, #news h1, .newsItem {
     padding: 10px;
 }
