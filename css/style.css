@@ -1,0 +1,48 @@
+/*
+* (C)2016 Steven Braham <steven@braham.biz>
+* This file is licensed under the MIT license
+* The full source of this project is found on https://github.com/stevenbraham/startrekwebsite
+*/
+
+/* General html elements */
+
+body {
+    background: url("../images/startrek_background.jpg") center center no-repeat fixed;
+    background-size: cover;
+    padding: 10% 20% 10%;
+    font-family: sans-serif;
+}
+
+header {
+    font-size: 12px;
+    background: rgba(162, 135, 135, 0.37);
+    padding: 1px 20px 0.5px;
+    border-radius: 15px 15px 0px 0px;
+}
+
+nav {
+    background: #4e1515;
+    word-spacing: -5px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px;
+    display: inline-block;
+    margin: 0;
+}
+
+nav a:hover {
+    background: #af7305;
+}
+
+/* Specific elements */
+
+#titleText {
+    color: #ffffff;
+    font-weight: lighter;
+    text-shadow: 0px 3px rgba(15, 4, 11, 0.78);
+}
+
