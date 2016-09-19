@@ -16,7 +16,7 @@ body {
 header {
     font-size: 12px;
     background: rgba(162, 135, 135, 0.37);
-    padding: 1px 20px 0.5px;
+    padding: 10px 20px 5px;
     border-radius: 15px 15px 0px 0px;
 }
 
@@ -29,13 +29,31 @@ nav a {
     color: white;
     text-decoration: none;
     text-transform: uppercase;
-    padding: 10px;
     display: inline-block;
     margin: 0;
 }
 
 nav a:hover {
     background: #af7305;
+}
+
+aside {
+    width: 30%;
+    background: white;
+    float: left;
+}
+
+footer {
+    color: #ffffff;
+    background: #4e1515;
+    border-radius: 0px 0px 15px 15px;
+}
+
+h1 {
+    color: #ffffff;
+    font-weight: lighter;
+    text-shadow: 0px 3px rgba(15, 4, 11, 0.78);
+    margin: 0;
 }
 
 /* Specific elements */
@@ -46,3 +64,25 @@ nav a:hover {
     text-shadow: 0px 3px rgba(15, 4, 11, 0.78);
 }
 
+#content {
+    margin: 10px 0px 10px;
+    display: flex;
+}
+
+#news {
+    float: left;
+    background: white;
+    width: 65%;
+    margin-right: 5%;
+}
+
+#news h1 {
+    margin: 0;
+    background: #4949ff;
+    font-size: 20px;
+}
+
+/* padding done in the end to ensure equal spacing */
+nav a, footer, #news h1 {
+    padding: 10px
+}
