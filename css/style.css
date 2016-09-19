@@ -11,6 +11,7 @@ body {
     background-size: cover;
     padding: 10% 20% 10%;
     font-family: sans-serif;
+    font-size: 13px;
 }
 
 header {
@@ -39,7 +40,6 @@ nav a:hover {
 
 aside {
     width: 30%;
-    background: white;
     float: left;
 }
 
@@ -82,7 +82,42 @@ h1 {
     font-size: 20px;
 }
 
+.sideItem {
+    background: #ffffff;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+.sideItem h2 {
+    margin: 0;
+    font-size: 17px;
+    color: #af7305;
+}
+
+#loginForm input {
+    width: 95%;
+}
+
+#loginForm button {
+    background: #af7305;
+    color: white;
+    border: none;
+    padding: 5px 20px 5px;
+    cursor: pointer;
+    margin: 10px 0px 10px;
+    border-radius: 2.5px;
+    border: gray 1px solid;
+}
+
+#loginForm button:hover {
+    background: #e80909;
+}
+
+.newsPicture {
+    width: 100%;
+    height: auto;
+}
 /* padding done in the end to ensure equal spacing */
-nav a, footer, #news h1 {
-    padding: 10px
+nav a, footer, #news h1, #newsItems {
+    padding: 10px;
 }

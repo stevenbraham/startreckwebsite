@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Let us build the USS Enterprise</title>
+    <meta name="description" content="Help us built the USS Enterprise. Donate today!"/>
     <link rel="stylesheet" href="css/style.css"/>
     <link rel="icon" href="images/favicon.png">
 </head>
@@ -10,18 +11,40 @@
 <header>
     <h1 id="titleText">Let us built the USS Enterprise!</h1>
 </header>
-<nav>
-    <a href="/">Home</a>
-    <a href="/story">Story</a>
-    <a href="/project">Project</a>
-    <a href="/donate">Donate</a>
+<nav role="navigation">
+    <a href="/" role="menuitem">Home</a>
+    <a href="/story" role="menuitem">Story</a>
+    <a href="/project" role="menuitem">Project</a>
+    <a href="/donate" role="menuitem">Donate</a>
 </nav>
 <div id="content">
     <section id="news">
         <h1>Read all about us</h1>
+        <div id="newsItems">
+            ff
+        </div>
     </section>
     <aside>
-        fdsfijdfsji
+        <div class="sideItem">
+            <h2>Donate now!</h2>
+            <p>Please support us with <a href="/donate">donation.</a></p>
+        </div>
+        <div class="sideItem">
+            <h2>Login</h2>
+            <form method="post" action="/login" id="loginForm" role="form">
+                <label for="username">Username</label>
+                <input type="text" name="username" id="username" required/>
+                <label for="password">Password</label>
+                <input type="password" name="password" id="password" required/>
+                <button role="button" type="submit" id="loginButton">Let me in!</button>
+            </form>
+        </div>
+        <div class="sideItem">
+            <h2>In the picture</h2>
+            <p>
+                <img src="images/spock.jpg" alt="spock" class="newsPicture"/>
+            </p>
+        </div>
     </aside>
 </div>
 <footer>
