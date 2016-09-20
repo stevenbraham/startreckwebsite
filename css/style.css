@@ -22,7 +22,7 @@ header {
 }
 
 nav {
-    background: #4e1515;
+    background: #343434;
     word-spacing: -5px;
 }
 
@@ -35,7 +35,7 @@ nav a {
 }
 
 nav a:hover {
-    background: #af7305;
+    background: #DE7F21;
 }
 
 aside {
@@ -46,7 +46,7 @@ aside {
 
 footer {
     color: #ffffff;
-    background: #4e1515;
+    background: #343434;
     border-radius: 0px 0px 15px 15px;
 }
 
@@ -80,7 +80,7 @@ h1 {
 
 #news h1 {
     margin: 0;
-    background: #4949ff;
+    background: #D635FB;
     font-size: 20px;
 }
 
@@ -93,7 +93,7 @@ h1 {
 .sideItem h2 {
     margin: 0;
     font-size: 17px;
-    color: #af7305;
+    color: #DE7F21;
 }
 
 #loginForm input {
@@ -101,7 +101,7 @@ h1 {
 }
 
 #loginForm button {
-    background: #af7305;
+    background: #DE7F21;
     color: white;
     border: none;
     padding: 5px 20px 5px;
@@ -112,7 +112,7 @@ h1 {
 }
 
 #loginForm button:hover {
-    background: #e80909;
+    background: #8F5313;
 }
 
 aside .newsPicture {
@@ -150,14 +150,14 @@ aside .newsPicture {
 }
 
 .newsItemContent h2 a:hover {
-    background: #af7305;
+    background: #DE7F21;
     text-shadow: 0px 3px rgba(15, 4, 11, 0.78);
     color: white !important;
     padding-bottom: 3px;
 }
 
 .newsItemContent h2 a {
-    color: #7272cc;
+    color: #8258A3;
     text-decoration: none;
 }
 
